@@ -1,0 +1,41 @@
+{
+  "name": "vyer-validator",
+  "version": "1.0.0",
+  "keywords": [
+    "vyer",
+    "vyer-validator",
+    "validator",
+    "string-validation",
+    "data-integrity",
+    "web-validation",
+    "input-validation"
+  ],
+  "author": "Muhamad Fadli Aqil",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "github.com/dlyycious/vyer-validator.git"
+  },
+  "description": "Vyer Validator offers streamlined string validation, simplifying the process of ensuring data integrity and accuracy in applications.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/react": "^18.2.20",
+    "rollup": "^3.28.0",
+    "rollup-plugin-dts": "^5.3.1",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist/",
+    "LICENSE"
+  ],
+  "types": "dist/index.d.ts"
+}
