@@ -1,6 +1,6 @@
 {
   "name": "vyer-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "vyer",
     "vyer-validator",
@@ -10,11 +10,11 @@
     "web-validation",
     "input-validation"
   ],
-  "author": "Muhamad Fadli Aqil",
+  "author": "Fadli Aqil",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "github.com/dlyycious/vyer-validator.git"
+    "url": "https://github.com/dlyycious/vyer-validator.git"
   },
   "description": "Vyer Validator offers streamlined string validation, simplifying the process of ensuring data integrity and accuracy in applications.",
   "scripts": {

@@ -21,8 +21,8 @@ validator.getMessage(); // => returns an array of error messages
 
 //Multiple Validator
 const string:IMultiValidation = [
-    {name: "foo", value: "bar", isRequired: {set: true, errorMessage: "", ...}}
-    {name: "bar", value: "foo", minLength: {set: 4, errorMessage: "", ...}}
+    {name: "foo", value: "bar", isRequired: {set: true, errorMessage: ""}, ...}
+    {name: "bar", value: "foo", isRequired: {set:true}, minLength: {set: 4, errorMessage: ""}, ...}
 ];
 const {validate, getMessage} = VyerMultiValidator(string);
 console.log(validate()); // ==> false, because on name: "bar", need min 4 character value
@@ -50,6 +50,10 @@ Single & Multiple **Vyer Validator** returns a response that provides the follow
 - `enum(enums, errorMessage)`: Validates to set only value what you sets.
 
 **Note:** All errorMessage is optional to custom your error message response. you can modify it
+
+## Contributing
+
+Contributions to **forb** are welcome! To contribute, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
