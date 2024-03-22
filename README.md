@@ -20,7 +20,7 @@ validator.validate(); // ==> false, because the string is empty and less than 5 
 validator.getMessage(); // => returns an array of error messages
 
 //Multiple Validator
-const string:IMultiValidation = [
+const string:IMultiValidation[] = [
     {name: "foo", value: "bar", isRequired: {set: true, errorMessage: ""}, ...}
     {name: "bar", value: "foo", isRequired: {set:true}, minLength: {set: 4, errorMessage: ""}, ...}
 ];
