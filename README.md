@@ -53,7 +53,7 @@ Single & Multiple **Vyer Validator** returns a response that provides the follow
 
 ## Contributing
 
-Contributions to **forb** are welcome! To contribute, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributions to **Vyer Validator** are welcome! To contribute, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
